@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contemporary Art in the Modern Political Landscape</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Inter Font Family -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0d0d0d; /* Deep charcoal background */
+        }
+        .protest-red {
+            color: #ff3859;
+        }
+    </style>
+</head>
+<body class="text-white antialiased">
+
+    <!-- Header / Hero Section -->
+    <header class="bg-[#0d0d0d] border-b-4 border-[#ff3859] shadow-2xl">
+        <div class="container mx-auto px-4 py-16 md:py-24">
+            <p class="text-xs uppercase tracking-widest protest-red mb-3">Online Exhibition |August 21 to December 4, 2025</p>
+            <h1 class="text-5xl sm:text-7xl md:text-8xl font-black leading-tight">
+                Contemporary Art in the <span class="protest-red">Modern Political Landscape</span> and Its Influence
+            </h1>
+            <p class="mt-6 text-xl text-gray-300 max-w-3xl">
+                An exhibition by Ella Wynn. Art is not a passive observer of culture and history. It is an activator of change, a force against institutional corruption, and one of the strongest languages of protest and transformation in society.
+            </p>
+        </div>
+    </header>
+
+    <!-- Curatorial Statement Summary -->
+    <section id="statement" class="py-16 md:py-24 bg-zinc-900 border-b border-gray-700">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl sm:text-4xl font-extrabold protest-red mb-8 uppercase tracking-wider">Curatorial Thesis</h2>
+            <div class="max-w-4xl text-lg space-y-6 text-gray-200">
+                <p>
+                    <strong class="protest-red">This exhibition argues that contemporary art does not simply reflect the world's political and social climate. Instead, it influences and molds it.</strong> Art is positioned in an engaged, essential role in national dialogue, where criticism is sounded, injustices are confronted, and alternative futures are imagined. By tackling issues like climate change, migration, gender and racial justice, and the precariousness of democracy, these artists show that creativity is not peripheral to politics. It is a driving force.
+                </p>
+                <p>
+                    Moving beyond aesthetic critique, the artists here destabilize institutions of power, subvert dominant narratives, and give voice to marginalized communities. Their work functions as both critique and catalyst, reordering what is seen, said, and felt within a society—a vital **reconsideration of what democracy feels like and whom it serves.**
+                </p>
+                <a href="#full-statement" class="inline-block mt-4 text-white hover:text-[#ff3859] border-b-2 border-transparent hover:border-[#ff3859] transition-all">Read Full Statement →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Artworks Section -->
+    <section id="artworks" class="py-16 md:py-24">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl sm:text-5xl font-black text-white mb-12">Featured Interventions</h2>
+
+            <!-- Artwork Grid -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+
+                <!-- 1. Agnes Denes: Wheatfield -->
+                <div class="p-6 bg-zinc-800 rounded-lg shadow-xl hover:shadow-2xl transition-shadow">
+                    <img src="https://placehold.co/600x400/000000/FFFFFF?text=Agnes+Denes%3A+Wheatfield+1982" alt="Image of Agnes Denes's Wheatfield - A Confrontation, showing two acres of wheat growing on a landfill near the World Trade Center." class="w-full h-72 object-cover rounded-lg mb-4 border-2 border-[#ff3859]">
+                    <h3 class="text-2xl font-bold protest-red">Agnes Denes</h3>
+                    <p class="text-xl font-light mb-3 italic">Wheatfield - A Confrontation (1982)</p>
+                    <p class="text-gray-300">
+                        Denes's colossal land art intervention—seeding two acres of wheat into a landfill bordering the World Trade Center—was a lyrical but caustic commentary on wasted economic resources. It transformed a wasteland into a breathing monument of opposition, establishing the precedent for artists to claim public space as a platform for action.
+                    </p>
+                </div>
+
+                <!-- 2. Hank Willis Thomas: All Power to All People -->
+                <div class="p-6 bg-zinc-800 rounded-lg shadow-xl hover:shadow-2xl transition-shadow">
+                    <img src="https://placehold.co/600x400/000000/FFFFFF?text=Hank+Willis+Thomas%3A+All+Power+2017" alt="Image of Hank Willis Thomas's massive afro pick sculpture, All Power to All People, near a historic city hall." class="w-full h-72 object-cover rounded-lg mb-4 border-2 border-[#ff3859]">
+                    <h3 class="text-2xl font-bold protest-red">Hank Willis Thomas</h3>
+                    <p class="text-xl font-light mb-3 italic">All Power to All People (2017)</p>
+                    <p class="text-gray-300">
+                        This massive afro pick, topped with a Black Power fist, reclaims public space near a monument to white supremacy. It is both a celebration of cultural identity and a visual act of resistance, insisting that public art cannot be neutral toward injustice; it must take part in the redefinition of common memory.
+                    </p>
+                </div>
+
+                <!-- 3. Nicole Eisenman: Morning Affirmations / Hanging Birth -->
+                <div class="p-6 bg-zinc-800 rounded-lg shadow-xl hover:shadow-2xl transition-shadow">
+                    <img src="https://placehold.co/600x400/000000/FFFFFF?text=Nicole+Eisenman%3A+Morning+Affirmations+2018" alt="Image of Nicole Eisenman's Morning Affirmations, depicting a Bald Eagle gazing at itself in a mirror." class="w-full h-72 object-cover rounded-lg mb-4 border-2 border-[#ff3859]">
+                    <h3 class="text-2xl font-bold protest-red">Nicole Eisenman</h3>
+                    <p class="text-xl font-light mb-3 italic">Morning Affirmations (2018) & Hanging Birth (1994)</p>
+                    <p class="text-gray-300">
+                        Eisenman delivers caustic satire. *Morning Affirmations* mocks narcissism in American politics using the Bald Eagle. *Hanging Birth* confronts the political struggle over reproductive rights by exposing how state power infiltrates the most intimate processes of life, anticipating the erosion of bodily autonomy.
+                    </p>
+                </div>
+
+                <!-- 4. Banksy / Martinez: Transnational Critique -->
+                <div class="p-6 bg-zinc-800 rounded-lg shadow-xl hover:shadow-2xl transition-shadow">
+                    <img src="https://placehold.co/600x400/000000/FFFFFF?text=Banksy%2FMartinez%3A+Global+Critique" alt="Image placeholder representing Banksy's and Martinez's work on global and systemic issues." class="w-full h-72 object-cover rounded-lg mb-4 border-2 border-[#ff3859]">
+                    <h3 class="text-2xl font-bold protest-red">Banksy & Daniel J. Martinez</h3>
+                    <p class="text-xl font-light mb-3 italic">I Love New York; Don't We All? (2008) & Museum Tags (1993)</p>
+                    <p class="text-gray-300">
+                        Banksy's global perspective critiques commercialization and state violence. Martinez’s *Museum Tags*—"I can't imagine ever wanting to be white"—challenged viewers and remade the museum itself into a politicized, contentious space, forcing viewers to confront systemic privilege head-on.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Full Curatorial Statement Section -->
+    <section id="full-statement" class="py-16 md:py-24 bg-gray-900 border-t-4 border-[#ff3859]">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl sm:text-5xl font-black protest-red mb-12">The Full Statement</h2>
+
+            <div class="max-w-4xl space-y-8 text-lg leading-relaxed text-gray-300">
+                <!-- Paragraph 1 -->
+                <p>
+                    Contemporary Art in the Modern Political Landscape and Its Influence is not only an exhibition, but a statement of intent. It argues that contemporary art does not simply reflect the world's political and social climate. Instead, it influences and molds it. In so doing, art becomes an activator of change and a force against institutional corruption. The show demolishes the mythology of art as a passive observer of culture and history. It positions art in an engaged, essential role in national dialogue. Here, criticism is sounded, injustices are confronted, and alternative futures are imagined. Through diverse artworks addressing systemic racism, environmental destruction, gender discrimination, and the abuse of power, this exhibition argues that art is one of the strongest languages of protest and transformation in society.
+                </p>
+                <!-- Paragraph 2 -->
+                <p>
+                    The exhibition's argument depends on the belief that art can reflect and define the political consciousness of its time. Today's artists, the show insists, are not content to merely represent or document social crises. Rather, they destabilize institutions of power, subvert dominant narratives, and give voice to marginalized communities. By tackling issues like climate change, migration, gender and racial justice, and the precariousness of American democracy, these artists show that creativity is not peripheral to politics. It is a driving force. Their practice recalls how aesthetic space structures collective imagination, mobilizes empathy, and catalyzes civic action.
+                </p>
+                <!-- Paragraph 3 (Political Discourse) -->
+                <p>
+                    The political discourse in the United States today is marked by extreme polarization, widespread corruption, and pervasive distrust of democratic institutions. It requires an equally robust cultural and artistic response. The artists in this exhibition fill that need. They move beyond aesthetic critique to engage in public debate. Their work does not merely reflect reality—it remakes it. They show us how art functions as both critique and catalyst, fostering an interdependent exchange between political power and creative expression. Political events frame artistic creation, but art can frame public perception and even influence policy. This active interaction recalls theorist Jacques Rancière's notion of the "distribution of the sensible."
+                </p>
+                <!-- Paragraph 4 (Conclusion/Call to Action) -->
+                <p>
+                    <strong class="protest-red">Finally, the show works as an act of provocation.</strong> It seeks not just to present art, but to energize onlookers. Its central argument is that contemporary art can read, comment on, and invert current political and social issues, and act as a major force for change. This idea is reflected in the work of cultural critic bell hooks, who felt that art could be a "space of radical possibility." Through making art that is oppositional to domination and proactive in defending human dignity, current artists offer visions of freedom that are not limited to the museum space. The show is then no longer a reflection of political reality, but an act of political imagination—a space where the public can envision more equitable futures.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#0d0d0d] py-10">
+        <div class="container mx-auto px-4 text-center text-xs text-gray-500">
+            <p>&copy; 2025 Ella Wynn, Contemporary Art Exhibition. All Rights Reserved.</p>
+            <p class="mt-2">This exhibition asserts that art is not just a record of history but an authority that can rewrite it.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
