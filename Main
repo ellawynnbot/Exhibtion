@@ -23,20 +23,20 @@
     <!-- Header / Hero Section -->
     <header class="bg-[#0d0d0d] border-b-4 border-[#ff3859] shadow-2xl">
         <div class="container mx-auto px-4 py-16 md:py-24">
-            <p class="text-xs uppercase tracking-widest protest-red mb-3">Online Exhibition |August 21 to December 4, 2025</p>
+            <p class="text-xs uppercase tracking-widest protest-red mb-3">Curated by Ella Wynn | October 23, 2025</p>
             <h1 class="text-5xl sm:text-7xl md:text-8xl font-black leading-tight">
                 Contemporary Art in the <span class="protest-red">Modern Political Landscape</span> and Its Influence
             </h1>
             <p class="mt-6 text-xl text-gray-300 max-w-3xl">
-                An exhibition by Ella Wynn. Art is not a passive observer of culture and history. It is an activator of change, a force against institutional corruption, and one of the strongest languages of protest and transformation in society.
+                This exhibition is a statement of intent, arguing that art is not a passive observer of history but an activator of change, a force against institutional corruption, and a powerful language of transformation.
             </p>
         </div>
     </header>
 
-    <!-- Curatorial Statement Summary -->
-    <section id="statement" class="py-16 md:py-24 bg-zinc-900 border-b border-gray-700">
+    <!-- Curatorial Thesis Summary -->
+    <section id="statement-summary" class="py-16 md:py-24 bg-zinc-900 border-b border-gray-700">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl sm:text-4xl font-extrabold protest-red mb-8 uppercase tracking-wider">Curatorial Thesis</h2>
+            <h2 class="text-3xl sm:text-4xl font-extrabold protest-red mb-8 uppercase tracking-wider">The Exhibition's Thesis</h2>
             <div class="max-w-4xl text-lg space-y-6 text-gray-200">
                 <p>
                     <strong class="protest-red">This exhibition argues that contemporary art does not simply reflect the world's political and social climate. Instead, it influences and molds it.</strong> Art is positioned in an engaged, essential role in national dialogue, where criticism is sounded, injustices are confronted, and alternative futures are imagined. By tackling issues like climate change, migration, gender and racial justice, and the precariousness of democracy, these artists show that creativity is not peripheral to politics. It is a driving force.
@@ -49,51 +49,111 @@
         </div>
     </section>
 
-    <!-- Featured Artworks Section -->
+    <!-- Featured Artworks Section - Now includes 10 individual artworks -->
     <section id="artworks" class="py-16 md:py-24">
         <div class="container mx-auto px-4">
-            <h2 class="text-4xl sm:text-5xl font-black text-white mb-12">Featured Interventions</h2>
+            <h2 class="text-4xl sm:text-5xl font-black text-white mb-12">Featured Interventions (10 Artworks)</h2>
 
-            <!-- Artwork Grid -->
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <!-- Artwork Grid (Responsive: 1 col, 2 cols, 3 cols) -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
 
                 <!-- 1. Agnes Denes: Wheatfield -->
                 <div class="p-6 bg-zinc-800 rounded-lg shadow-xl hover:shadow-2xl transition-shadow">
-                    <img src="https://placehold.co/600x400/000000/FFFFFF?text=Agnes+Denes%3A+Wheatfield+1982" alt="Image of Agnes Denes's Wheatfield - A Confrontation, showing two acres of wheat growing on a landfill near the World Trade Center." class="w-full h-72 object-cover rounded-lg mb-4 border-2 border-[#ff3859]">
-                    <h3 class="text-2xl font-bold protest-red">Agnes Denes</h3>
-                    <p class="text-xl font-light mb-3 italic">Wheatfield - A Confrontation (1982)</p>
-                    <p class="text-gray-300">
-                        Denes's colossal land art intervention—seeding two acres of wheat into a landfill bordering the World Trade Center—was a lyrical but caustic commentary on wasted economic resources. It transformed a wasteland into a breathing monument of opposition, establishing the precedent for artists to claim public space as a platform for action.
+                    <img src="https://placehold.co/600x400/000000/FFFFFF?text=Denes%3A+Wheatfield+1982" alt="Image of Agnes Denes's Wheatfield - A Confrontation." class="w-full h-40 object-cover rounded-lg mb-4 border-2 border-[#ff3859]">
+                    <h3 class="text-xl font-bold protest-red">Agnes Denes</h3>
+                    <p class="text-lg font-light mb-3 italic">Wheatfield – A Confrontation (1982)</p>
+                    <p class="text-sm text-gray-300">
+                        Her colossal land art intervention—seeding two acres of wheat into a landfill bordering the World Trade Center—was a lyrical but caustic commentary on wasted economic resources during times of financial turmoil.
                     </p>
                 </div>
 
                 <!-- 2. Hank Willis Thomas: All Power to All People -->
                 <div class="p-6 bg-zinc-800 rounded-lg shadow-xl hover:shadow-2xl transition-shadow">
-                    <img src="https://placehold.co/600x400/000000/FFFFFF?text=Hank+Willis+Thomas%3A+All+Power+2017" alt="Image of Hank Willis Thomas's massive afro pick sculpture, All Power to All People, near a historic city hall." class="w-full h-72 object-cover rounded-lg mb-4 border-2 border-[#ff3859]">
-                    <h3 class="text-2xl font-bold protest-red">Hank Willis Thomas</h3>
-                    <p class="text-xl font-light mb-3 italic">All Power to All People (2017)</p>
-                    <p class="text-gray-300">
-                        This massive afro pick, topped with a Black Power fist, reclaims public space near a monument to white supremacy. It is both a celebration of cultural identity and a visual act of resistance, insisting that public art cannot be neutral toward injustice; it must take part in the redefinition of common memory.
+                    <img src="https://placehold.co/600x400/000000/FFFFFF?text=Thomas%3A+All+Power+2017" alt="Image of Hank Willis Thomas's massive afro pick sculpture." class="w-full h-40 object-cover rounded-lg mb-4 border-2 border-[#ff3859]">
+                    <h3 class="text-xl font-bold protest-red">Hank Willis Thomas</h3>
+                    <p class="text-lg font-light mb-3 italic">All Power to All People (2017)</p>
+                    <p class="text-sm text-gray-300">
+                        Set near a monument to white supremacy, the massive afro pick, topped with a Black Power fist, is both a celebration of cultural identity and a visual act of reclaiming public space as a space of resistance.
                     </p>
                 </div>
 
-                <!-- 3. Nicole Eisenman: Morning Affirmations / Hanging Birth -->
+                <!-- 3. Nicole Eisenman: Morning Affirmations -->
                 <div class="p-6 bg-zinc-800 rounded-lg shadow-xl hover:shadow-2xl transition-shadow">
-                    <img src="https://placehold.co/600x400/000000/FFFFFF?text=Nicole+Eisenman%3A+Morning+Affirmations+2018" alt="Image of Nicole Eisenman's Morning Affirmations, depicting a Bald Eagle gazing at itself in a mirror." class="w-full h-72 object-cover rounded-lg mb-4 border-2 border-[#ff3859]">
-                    <h3 class="text-2xl font-bold protest-red">Nicole Eisenman</h3>
-                    <p class="text-xl font-light mb-3 italic">Morning Affirmations (2018) & Hanging Birth (1994)</p>
-                    <p class="text-gray-300">
-                        Eisenman delivers caustic satire. *Morning Affirmations* mocks narcissism in American politics using the Bald Eagle. *Hanging Birth* confronts the political struggle over reproductive rights by exposing how state power infiltrates the most intimate processes of life, anticipating the erosion of bodily autonomy.
+                    <img src="https://placehold.co/600x400/000000/FFFFFF?text=Eisenman%3A+Affirmations+2018" alt="Image of Nicole Eisenman's Morning Affirmations." class="w-full h-40 object-cover rounded-lg mb-4 border-2 border-[#ff3859]">
+                    <h3 class="text-xl font-bold protest-red">Nicole Eisenman</h3>
+                    <p class="text-lg font-light mb-3 italic">Morning Affirmations (2018)</p>
+                    <p class="text-sm text-gray-300">
+                        A caustic satire piece whereby a Bald Eagle, the national symbol, stands gazing at itself in the mirror, bearing an unimitative resemblance to a contemporary political leader.
                     </p>
                 </div>
 
-                <!-- 4. Banksy / Martinez: Transnational Critique -->
+                <!-- 4. Nicole Eisenman: The Triumph of Poverty -->
                 <div class="p-6 bg-zinc-800 rounded-lg shadow-xl hover:shadow-2xl transition-shadow">
-                    <img src="https://placehold.co/600x400/000000/FFFFFF?text=Banksy%2FMartinez%3A+Global+Critique" alt="Image placeholder representing Banksy's and Martinez's work on global and systemic issues." class="w-full h-72 object-cover rounded-lg mb-4 border-2 border-[#ff3859]">
-                    <h3 class="text-2xl font-bold protest-red">Banksy & Daniel J. Martinez</h3>
-                    <p class="text-xl font-light mb-3 italic">I Love New York; Don't We All? (2008) & Museum Tags (1993)</p>
-                    <p class="text-gray-300">
-                        Banksy's global perspective critiques commercialization and state violence. Martinez’s *Museum Tags*—"I can't imagine ever wanting to be white"—challenged viewers and remade the museum itself into a politicized, contentious space, forcing viewers to confront systemic privilege head-on.
+                    <img src="https://placehold.co/600x400/000000/FFFFFF?text=Eisenman%3A+Triumph+of+Poverty+2009" alt="Image of Nicole Eisenman's The Triumph of Poverty." class="w-full h-40 object-cover rounded-lg mb-4 border-2 border-[#ff3859]">
+                    <h3 class="text-xl font-bold protest-red">Nicole Eisenman</h3>
+                    <p class="text-lg font-light mb-3 italic">The Triumph of Poverty (2009)</p>
+                    <p class="text-sm text-gray-300">
+                        Imagined in the aftermath of the 2008 financial crisis, this painting presents a stark vision of zombie-like people lost in despair, standing for the dehumanizing conditions of economic collapse.
+                    </p>
+                </div>
+
+                <!-- 5. Banksy: I Love New York; Don't We All? -->
+                <div class="p-6 bg-zinc-800 rounded-lg shadow-xl hover:shadow-2xl transition-shadow">
+                    <img src="https://placehold.co/600x400/000000/FFFFFF?text=Banksy%3A+I+Love+NY+2008" alt="Image of Banksy's 'I Love New York; Don't We All?' graffiti piece." class="w-full h-40 object-cover rounded-lg mb-4 border-2 border-[#ff3859]">
+                    <h3 class="text-xl font-bold protest-red">Banksy</h3>
+                    <p class="text-lg font-light mb-3 italic">I Love New York; Don't We All? (2008)</p>
+                    <p class="text-sm text-gray-300">
+                        This mural, featuring an engorged rat wearing an "I Heart NY" t-shirt, mocks the commercialization of civic pride and tourism and highlights how American cultural malaise has world implications.
+                    </p>
+                </div>
+
+                <!-- 6. Banksy: Fuck the Police -->
+                <div class="p-6 bg-zinc-800 rounded-lg shadow-xl hover:shadow-2xl transition-shadow">
+                    <img src="https://placehold.co/600x400/000000/FFFFFF?text=Banksy%3A+F*ck+the+Police+2000" alt="Image of Banksy's 'Fuck the Police' graffiti piece." class="w-full h-40 object-cover rounded-lg mb-4 border-2 border-[#ff3859]">
+                    <h3 class="text-xl font-bold protest-red">Banksy</h3>
+                    <p class="text-lg font-light mb-3 italic">Fuck the Police (2000)</p>
+                    <p class="text-sm text-gray-300">
+                        Attacks the epidemic of police brutality across the U.S. and ties it to worldwide movements against state violence, reinforcing the transnational nature of political opposition.
+                    </p>
+                </div>
+
+                <!-- 7. Nicole Eisenman: Hanging Birth -->
+                <div class="p-6 bg-zinc-800 rounded-lg shadow-xl hover:shadow-2xl transition-shadow">
+                    <img src="https://placehold.co/600x400/000000/FFFFFF?text=Eisenman%3A+Hanging+Birth+1994" alt="Image of Nicole Eisenman's Hanging Birth." class="w-full h-40 object-cover rounded-lg mb-4 border-2 border-[#ff3859]">
+                    <h3 class="text-xl font-bold protest-red">Nicole Eisenman</h3>
+                    <p class="text-lg font-light mb-3 italic">Hanging Birth (1994)</p>
+                    <p class="text-sm text-gray-300">
+                        The gruesome imagery of the forced birth of a woman represents the ongoing struggle over reproductive rights in the U.S., anticipating the erosion of bodily autonomy by state power.
+                    </p>
+                </div>
+
+                <!-- 8. Nicole Eisenman: Tea Party -->
+                <div class="p-6 bg-zinc-800 rounded-lg shadow-xl hover:shadow-2xl transition-shadow">
+                    <img src="https://placehold.co/600x400/000000/FFFFFF?text=Eisenman%3A+Tea+Party+2011" alt="Image of Nicole Eisenman's Tea Party painting." class="w-full h-40 object-cover rounded-lg mb-4 border-2 border-[#ff3859]">
+                    <h3 class="text-xl font-bold protest-red">Nicole Eisenman</h3>
+                    <p class="text-lg font-light mb-3 italic">Tea Party (2011)</p>
+                    <p class="text-sm text-gray-300">
+                        A satirical commentary revealing the crossing of politics, religion, and corporate interests, exposing the hypocrisy of American conservatism and the theatrics of populist sentiment.
+                    </p>
+                </div>
+
+                <!-- 9. The Secret Handshake: Statue of Trump and Epstein Holding Hands -->
+                <div class="p-6 bg-zinc-800 rounded-lg shadow-xl hover:shadow-2xl transition-shadow">
+                    <img src="https://placehold.co/600x400/000000/FFFFFF?text=Secret+Handshake%3A+Trump+%26+Epstein+2025" alt="Image of The Secret Handshake's Statue of Trump and Epstein Holding Hands." class="w-full h-40 object-cover rounded-lg mb-4 border-2 border-[#ff3859]">
+                    <h3 class="text-xl font-bold protest-red">The Secret Handshake</h3>
+                    <p class="text-lg font-light mb-3 italic">Statue of Trump and Epstein Holding Hands (2025)</p>
+                    <p class="text-sm text-gray-300">
+                        This sculpture represents public outrage towards institutional impunity by mirroring the grotesque intersection of political and economic elites whose misdeeds often go unchallenged.
+                    </p>
+                </div>
+
+                <!-- 10. Daniel J. Martinez: Museum Tags -->
+                <div class="p-6 bg-zinc-800 rounded-lg shadow-xl hover:shadow-2xl transition-shadow">
+                    <img src="https://placehold.co/600x400/000000/FFFFFF?text=Martinez%3A+Museum+Tags+1993" alt="Image of Daniel J. Martinez's Museum Tags installation." class="w-full h-40 object-cover rounded-lg mb-4 border-2 border-[#ff3859]">
+                    <h3 class="text-xl font-bold protest-red">Daniel J. Martinez</h3>
+                    <p class="text-lg font-light mb-3 italic">Museum Tags (1993)</p>
+                    <p class="text-sm text-gray-300">
+                        The famous museum intervention where tags read, "I can't imagine ever wanting to be white," transforming the institutional space itself into a politicized, contentious site.
                     </p>
                 </div>
             </div>
